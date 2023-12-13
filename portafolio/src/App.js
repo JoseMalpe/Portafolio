@@ -2,7 +2,8 @@ import './App.css';
 import FotoPerfil from './components/FotoPerfil';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import Home from './pages/Home';
+import Home from './pages/home/Home';
+import NotFound from './pages/not-found/NotFound';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAldeNteCNkkOpn8QgbJPiFEQ05UOAJQY0",
@@ -19,7 +20,9 @@ const analytics = getAnalytics(app);
 
 function App() {
   return (
-    <Home />
+    <>
+      <NotFound />
+    </>
   );
 }
 
