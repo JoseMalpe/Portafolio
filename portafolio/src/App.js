@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import FotoPerfil from './components/FotoPerfil';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import Home from './pages/Home';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAldeNteCNkkOpn8QgbJPiFEQ05UOAJQY0",
@@ -19,10 +19,7 @@ const analytics = getAnalytics(app);
 
 function App() {
   return (
-    <div className="App-header">
-          <h1>José María Alcaraz Pérez</h1>
-          <FotoPerfil />
-    </div>
+    <Home />
   );
 }
 
