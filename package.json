@@ -11,5 +11,8 @@
     "url": "github.com/JoseMalpe/Portafolio.git"
   },
   "author": "Jose Maria Alcaraz Perez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-helmet": "^6.1.0"
+  }
 }
