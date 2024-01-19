@@ -1,16 +1,17 @@
+import { withTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
-
-function NotFound() {
+ function NotFound({ t, i18n }) {
     return (
         <div>
-            <img
-                src={'../img/underconstruction.png'}
-                loading="lazy"
-                width={'100%'}
-                height={'auto'}
-            />
+            <p>
+                {t('notFound')}
+            </p>
+            <div>
+                <Link to="/">Home</Link>
+            </div>
         </div>
     )
 }
-export default NotFound;
+export default withTranslation('notFound')(NotFound);
 
