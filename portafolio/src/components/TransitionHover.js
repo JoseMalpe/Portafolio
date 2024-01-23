@@ -7,10 +7,10 @@ const ImageStyle = styled(ImageList)`
   ${({ theme }) => `
   cursor: pointer;
   transition: ${theme.transitions.create(['transform'], {
-  duration: theme.transitions.duration.standard,
+  duration: theme.transitions.duration.standard * 3,
 })};
   &:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
   }
   `}
 `;

@@ -36,7 +36,7 @@ export default function Proyectos() {
                     <Typography>Página de vinos utilizando React</Typography>
                 </div>
                 <div>
-                    <Link href="https://ceremonia-511bb.web.app/" target="_blank" >
+                    <Link href="https://krebel.es/" target="_blank" >
                         <TransitionHover imageUrl='img\logokrebel.jpg' />
                     </Link>
                     <Typography>Página de venta de ropa de ceremonia utilizando React</Typography>

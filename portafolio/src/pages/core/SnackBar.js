@@ -9,7 +9,6 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { NavLink } from 'react-router-dom';
-import { AppBar } from '@mui/material';
 
 const pages = [
   { name: 'Proyectos', link: '/proyectos' },
