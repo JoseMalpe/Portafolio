@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import { Container, Link, Typography } from '@mui/material';
 import TransitionHover from '../../components/TransitionHover';
-import TwoColumn from '../core/TwoColumn';
+import ThreeColumn from '../core/ThreeColumns';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'transparent',
@@ -28,7 +28,7 @@ export default function Proyectos() {
     return (
         <Container sx={{ marginY: marginValues }}>
             <Typography variant='h4' textAlign={'center'}>Proyectos</Typography>
-            <TwoColumn>
+            <ThreeColumn>
                 <div>
                     <Link href="https://vinos-7f430.web.app/" target="_blank">
                         <TransitionHover imageUrl='img\main-rev-img-1.jpg' />
@@ -41,7 +41,12 @@ export default function Proyectos() {
                     </Link>
                     <Typography>Página de venta de ropa de ceremonia utilizando React</Typography>
                 </div>
-            </TwoColumn>
+                <div>
+                <Link href="https://fervic.es/" target="_blank" >
+                        <TransitionHover imageUrl='img\LogoFerVic.jpeg' />
+                    </Link>
+                </div>
+            </ThreeColumn>
         </Container>
     )
 } 
