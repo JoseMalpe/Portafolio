@@ -18,7 +18,7 @@ export default function Home() {
         <Container sx={{ marginY: marginValues }}>
             <Grid item padding={4} >
                 <img className="img" src='img\img firma.png' />
-                <Typography variant='h2'>José María Alcaraz Pérez</Typography>
+                <Typography variant='h2' paddingTop={'100px'}>José María Alcaraz Pérez</Typography>
                 <Typography variant='body1' >Desarrollador FrontEnd</Typography>
                 <Typography variant='body1' paddingBottom={10}>apasionado del motor y de la tecnología</Typography>
                 <Divider color='white' padding={4} >

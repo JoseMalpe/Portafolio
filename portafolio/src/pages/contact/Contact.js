@@ -20,30 +20,17 @@ export default function Contact() {
   };
   return (
     <>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11944.351479537057!2d2.4510464!3d41.54569465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1703026625871!5m2!1ses!2ses"
-        width="100%"
-        height="450"
-        style={{ border: 0 }}
-        loading="lazy"
-      />
-      <Container sx={{ marginY: marginValues }}>
-        <Grid padding={4}>
+      <Container sx={{ marginY: marginValues }} >
+        <Grid padding={4} textAlign={'center'}>
           <List
             sx={{ width: '100%', maxWidth: 360 }}
             component="nav"
             subheader={
               <ListItemText>
-                <Typography variant="h5">contacto</Typography>
+                <Typography variant="h3" paddingBottom={'100px'}>contacto</Typography>
               </ListItemText>
             }
           >
-            <ListItemButton>
-              <ListItemIcon>
-                <LocationOnIcon />
-              </ListItemIcon>
-              <Link href="https://maps.app.goo.gl/r11ZpSNudqyfWp6e7" target="_blank">Mataro, 08304, Barcelona</Link>
-            </ListItemButton>
             <ListItemButton>
               <ListItemIcon>
                 <EmailIcon />
@@ -55,6 +42,12 @@ export default function Contact() {
                 <PhoneAndroidIcon />
               </ListItemIcon>
               <Link href="tel:637017987">637017987</Link>
+            </ListItemButton>
+            <ListItemButton>
+              <ListItemIcon>
+                <LocationOnIcon />
+              </ListItemIcon>
+              <Link href="https://maps.app.goo.gl/r11ZpSNudqyfWp6e7" target="_blank">Mataro, 08304, Barcelona</Link>
             </ListItemButton>
           </List>
         </Grid>

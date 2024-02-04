@@ -38,7 +38,7 @@ function ResponsiveAppBar() {
       <Toolbar disableGutters >
           <NavLink to="/" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
             <img
-              src={'/img/logo-removebg-preview.png'}
+              src={'/img/LogoJM-removebg-preview.png'}
               width={200}
               height={'auto'}
               style={{ margin: '10px' }}
@@ -110,7 +110,7 @@ function ResponsiveAppBar() {
                 onClick={handleCloseNavMenu}
                 sx={{ 
                   my: 2, 
-                  color: 'white', 
+                  color: 'black', 
                   display: 'block', 
                   textDecoration: 'none',
                   marginLeft: '50px'

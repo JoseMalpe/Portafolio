@@ -1,11 +1,9 @@
 import React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 import { Container, Link, Typography } from '@mui/material';
 import TransitionHover from '../../components/TransitionHover';
-import ThreeColumn from '../core/ThreeColumns';
+import ProyectColumns from '../core/ProyectColumns';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'transparent',
@@ -27,26 +25,24 @@ export default function Proyectos() {
     };
     return (
         <Container sx={{ marginY: marginValues }}>
-            <Typography variant='h4' textAlign={'center'}>Proyectos</Typography>
-            <ThreeColumn>
+            <Typography variant='h2' color={'#8a2be2'} textAlign={'center'}>Proyectos</Typography>
+            <ProyectColumns>
                 <div>
                     <Link href="https://vinos-7f430.web.app/" target="_blank">
                         <TransitionHover imageUrl='img\main-rev-img-1.jpg' />
                     </Link>
-                    <Typography>Página de vinos utilizando React</Typography>
                 </div>
                 <div>
                     <Link href="https://krebel.es/" target="_blank" >
                         <TransitionHover imageUrl='img\logokrebel.jpg' />
                     </Link>
-                    <Typography>Página de venta de ropa de ceremonia utilizando React</Typography>
                 </div>
                 <div>
                 <Link href="https://fervic.es/" target="_blank" >
                         <TransitionHover imageUrl='img\LogoFerVic.jpeg' />
                     </Link>
                 </div>
-            </ThreeColumn>
+            </ProyectColumns>
         </Container>
     )
 } 
