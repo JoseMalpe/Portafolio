@@ -25,7 +25,7 @@ export default function Proyectos() {
     };
     return (
         <Container sx={{ marginY: marginValues }}>
-            <Typography variant='h2' color={'#8a2be2'} textAlign={'center'}>Proyectos</Typography>
+            <Typography variant='h2' textAlign={'center'}>Proyectos</Typography>
             <ProyectColumns>
                 <div>
                     <Link href="https://vinos-7f430.web.app/" target="_blank">

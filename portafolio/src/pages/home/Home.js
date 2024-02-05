@@ -2,7 +2,6 @@ import { Chip, Container, Divider, Grid, Typography, useTheme } from '@mui/mater
 import './Home.css'
 import React from 'react';
 import Social from '../redes/Social';
-import WeatherComponent from './WeatherCard';
 
 export default function Home() {
     const theme = useTheme();

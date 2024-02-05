@@ -14,7 +14,7 @@ const pages = [
   { name: 'Proyectos', link: '/proyectos' },
   { name: 'Currículum', link: '/curriculum' },
   { name: 'Contacto', link: '/contacto' },
-  { name: 'Sobre mí', link: '/sobremi' },
+  { name: 'Sobre mí', link: '/sobremii' },
 ];
 
 function ResponsiveAppBar() {
@@ -38,8 +38,8 @@ function ResponsiveAppBar() {
       <Toolbar disableGutters >
           <NavLink to="/" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
             <img
-              src={'/img/LogoJM-removebg-preview.png'}
-              width={200}
+              src={'/img/LogoJM.png'}
+              width={150}
               height={'auto'}
               style={{ margin: '10px' }}
               alt="Logo"
