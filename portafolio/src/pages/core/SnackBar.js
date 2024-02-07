@@ -14,7 +14,7 @@ const pages = [
   { name: 'Proyectos', link: '/proyectos' },
   { name: 'Currículum', link: '/curriculum' },
   { name: 'Contacto', link: '/contacto' },
-  { name: 'Sobre mí', link: '/sobremii' },
+  { name: 'Sobre mí', link: '/sobremi' },
 ];
 
 function ResponsiveAppBar() {
@@ -33,13 +33,13 @@ function ResponsiveAppBar() {
 
   return (
 
-    <Box position="static" padding={2}>
+    <Box position="static" padding={8}>
       <Container maxWidth="xl" >
       <Toolbar disableGutters >
           <NavLink to="/" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
             <img
-              src={'/img/LogoJM.png'}
-              width={150}
+              src={'/img/WebDeveloper.png'}
+              width={200}
               height={'auto'}
               style={{ margin: '10px' }}
               alt="Logo"
